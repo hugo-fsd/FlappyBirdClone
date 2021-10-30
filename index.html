@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Flappy" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Flappy Bird</title>
+</head>
+<body class="stop-scrolling">
+    <div class="score">
+        <p id="currentScore">0</p>
+    </div>
+    <div class="border-left"></div>
+    <div class="border-right"></div>
+    <div class="game">
+        <div class="border-top"></div>
+        <div class="border-bottom"></div>
+        <div class="ground"></div>
+        <div class="sky">
+            <div class="bird"></div>
+        </div>
+        <audio id="wing-audio">
+            <source src ="sounds/wing.mp3" type="audio/mp3">
+        </audio>
+        <audio id="die-audio">
+            <source src ="sounds/die.mp3" type="audio/mp3">
+        </audio>
+        <audio id="hit-audio">   
+            <source src ="sounds/hit.mp3" type="audio/mp3">
+        </audio>
+        <audio id="point-audio">   
+            <source src ="sounds/point.mp3" type="audio/mp3">
+        </audio>
+    </div>
+</body>   
+<script src="flappyBird.js"></script>
+</html>
